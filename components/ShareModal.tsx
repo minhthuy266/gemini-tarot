@@ -147,7 +147,7 @@ const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, reading }) => 
             const textX = 420;
             let currentY = 80;
 
-            ctx.font = 'bold 44px "Cinzel Decorative", cursive';
+            ctx.font = 'bold 44px "Playfair Display", serif';
             ctx.fillStyle = '#fcd34d';
             ctx.fillText("Lượt Giải Gemini Tarot", textX, currentY);
             currentY += 60;
@@ -161,7 +161,7 @@ const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, reading }) => 
                  currentY += 20;
             }
             
-            ctx.font = 'bold 30px "Cinzel Decorative", cursive';
+            ctx.font = 'bold 30px "Playfair Display", serif';
             ctx.fillStyle = '#fef08a';
             ctx.fillText("Tóm Tắt", textX, currentY);
             currentY += 45;
