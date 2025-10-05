@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Tarot Reader",
+  "description": "A mystical web application that provides classic Tarot card readings using the power of the Gemini API. Features a beautiful card shuffling animation and detailed interpretations for each card drawn.",
+  "requestFramePermissions": []
+}
